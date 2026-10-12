@@ -1,28 +1,35 @@
 # AltBelts for WWE 2K26
 
 AltBelts gives some of the champions of a title a different belt. The NXT Tag Team
-Championship '13-'17, for example, comes with two belts, one for each partner.
+Championship '13-'17, for example, comes with two belts, one for each partner. The alt
+belt shows up in entrances, in the ring before the match, in victories, on the arena
+pedestal and hanging over the ring in tag ladder matches (experimental).
 
 It also turns a tag title into a trios title. In 3v3 Exhibition matches all three
 champions defend it, and the third one is saved like the other two. The third champion
 also gets the belt in the team entrance and on the arena pedestal, and the trio
-celebrates its title win together.
+celebrates its title win together. In the Championships menu a trios title shows all
+three champions.
+
+Mixed Tag Exhibition matches can be for a title too, like normal tag matches.
 
 And champions celebrate wearing their belts: when a trio or a stable wins, every
 champion has their belt on the waist in the victory scene.
 
 ## Download
 
-Get **AltBelts-Config.exe** from the [latest release](../../releases/latest).
-That's all you need: the plugin travels inside the app.
+Get **AltBelts.exe** from the [latest release](../../releases/latest).
+That's all you need: the plugin and its game files travel inside the app. (If you have
+the older **AltBelts Config**, it updates itself to this one.)
 
 ## Install
 
 1. You need a plugin loader that loads `plugins\*.dlp` and `mods\*.cak` from the game
    folder (CakeHook does both).
-2. Run **AltBelts-Config.exe**. It finds the game through Steam.
+2. Run **AltBelts.exe**. It finds the game through Steam.
 3. Click **Install plugin**. The app copies the plugin into the game's `plugins`
-   folder, the victory scenes into its `mods` folder, and creates the default settings.
+   folder, its game files (the victory scenes and the Championships menu) into its
+   `mods` folder, and creates the default settings.
 
 ## Set it up
 
@@ -44,7 +51,7 @@ game.
 
 When the app starts it checks this page for a newer version. If there is one, it
 shows what's new and an **Update now** button: the app downloads the new version,
-checks it, replaces itself and installs the new plugin and victory scenes. Close the
+checks it, replaces itself and installs the new plugin and its game files. Close the
 game first.
 
 ## Notes
@@ -53,10 +60,15 @@ game first.
 - Menus still show the main belt.
 - When the game gets updated, AltBelts stops working until a new version comes out.
   The app tells you when your game version isn't supported yet.
-- Trios titles work in 3v3 Exhibition. In Universe they keep two champions.
+- Trios titles and Mixed Tag title matches work in Exhibition. In Universe trios titles
+  keep two champions.
+- AltBelts doesn't change the game's code: everything it does goes through the game's
+  data, so it stays away from the game's protection.
 - If you used TriosDefense on its own: it's built into AltBelts now. Installing the plugin
   moves the separate one to `plugins\AltBelts backups`, and the third champions it saved
-  are kept.
+  are kept. The same goes for the separate TriosMenu plugin.
+- All the game files now come in one `mods\AltBelts.cak`. Installing moves the older
+  ones (`AltBelts_ANIMS.cak`, `TRIOS_UI_TEST.cak`) to `plugins\AltBelts backups`.
 - AltBelts is in beta. If something goes wrong, turn on **Write a log file** in the
   app, play until it happens and share `plugins\AltBelts.log`.
 
