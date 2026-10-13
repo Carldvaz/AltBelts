@@ -5,13 +5,15 @@ Championship '13-'17, for example, comes with two belts, one for each partner. T
 belt shows up in entrances, in the ring before the match, in victories, on the arena
 pedestal and hanging over the ring in tag ladder matches (experimental).
 
-It also turns a tag title into a trios title. In 3v3 Exhibition matches all three
-champions defend it, and the third one is saved like the other two. The third champion
-also gets the belt in the team entrance and on the arena pedestal, and the trio
-celebrates its title win together. In the Championships menu a trios title shows all
-three champions.
+It also turns a tag title into a trios title. In 3v3 matches, in Exhibition and Universe,
+all three champions defend it. The third champion also gets the belt in the team
+entrance and on the arena pedestal, and the trio celebrates its title win together.
+Exhibition saves the third champion like the other two; Universe keeps two and the third
+one comes from the trio. The menus show all three: Championships in Exhibition, and Edit
+Show, Edit Championships and the title picker of a match in Universe.
 
-Mixed Tag Exhibition matches can be for a title too, like normal tag matches.
+Mixed Tag matches can be for a title too, like normal tag matches, in Exhibition and
+Universe.
 
 And champions celebrate wearing their belts: when a trio or a stable wins, every
 champion has their belt on the waist in the victory scene.
@@ -28,7 +30,7 @@ the older **AltBelts Config**, it updates itself to this one.)
    folder (CakeHook does both).
 2. Run **AltBelts.exe**. It finds the game through Steam.
 3. Click **Install plugin**. The app copies the plugin into the game's `plugins`
-   folder, its game files (the victory scenes and the Championships menu) into its
+   folder, its game files (the victory scenes and the menus) into its
    `mods` folder, and creates the default settings.
 
 ## Set it up
@@ -60,8 +62,8 @@ game first.
 - Menus still show the main belt.
 - When the game gets updated, AltBelts stops working until a new version comes out.
   The app tells you when your game version isn't supported yet.
-- Trios titles and Mixed Tag title matches work in Exhibition. In Universe trios titles
-  keep two champions.
+- Trios titles and Mixed Tag title matches work in Exhibition and Universe. The
+  Contenders screen in Universe still shows two champions.
 - AltBelts doesn't change the game's code: everything it does goes through the game's
   data, so it stays away from the game's protection.
 - If you used TriosDefense on its own: it's built into AltBelts now. Installing the plugin
