@@ -24,6 +24,10 @@ Get **AltBelts.exe** from the [latest release](../../releases/latest).
 That's all you need: the plugin and its game files travel inside the app. (If you have
 the older **AltBelts Config**, it updates itself to this one.)
 
+Rather not run an .exe? The same release has **AltBelts_&lt;version&gt;_manual.zip**: the
+plugin, its game files and default settings, to copy into the game folder yourself.
+Its README explains how to install, update and uninstall by hand.
+
 ## Install
 
 1. You need a plugin loader that loads `plugins\*.dlp` and `mods\*.cak` from the game
@@ -55,6 +59,19 @@ When the app starts it checks this page for a newer version. If there is one, it
 shows what's new and an **Update now** button: the app downloads the new version,
 checks it, replaces itself and installs the new plugin and its game files. Close the
 game first.
+
+## Uninstall
+
+In the app: the gear button > **Uninstall AltBelts**. It lists everything it's going to
+remove and asks you to type a 4-digit code first. Everything goes to the Recycle Bin,
+so you can restore it if you change your mind. Your settings and the trios AltBelts
+saved stay unless you tick **Also remove my settings and saved trios**. Then delete
+AltBelts.exe: it doesn't install anything else.
+
+AltBelts only adds its own files: `plugins\AltBelts.dlp`, `plugins\AltBelts.txt`,
+`mods\AltBelts.cak`, its logs and backups, and the saved trios in
+`%LOCALAPPDATA%\WWE2K26\TriosDefense`. It never installs or changes a plugin loader
+(`dinput8.dll`), CakeHook or anybody else's mods.
 
 ## Notes
 
