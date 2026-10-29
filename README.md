@@ -81,8 +81,9 @@ AltBelts only adds its own files: `plugins\AltBelts.dlp`, `plugins\AltBelts.txt`
   The app tells you when your game version isn't supported yet.
 - Trios titles and Mixed Tag title matches work in Exhibition and Universe. The
   Contenders screen in Universe still shows two champions.
-- AltBelts doesn't change the game's code: everything it does goes through the game's
-  data, so it stays away from the game's protection.
+- AltBelts doesn't change a single byte of the game's code: it redirects a few of the
+  game's own function pointers to the plugin and edits belt data in memory, so it stays
+  away from the game's protection.
 - If you used TriosDefense on its own: it's built into AltBelts now. Installing the plugin
   moves the separate one to `plugins\AltBelts backups`, and the third champions it saved
   are kept. The same goes for the separate TriosMenu plugin.
